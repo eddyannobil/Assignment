@@ -1,15 +1,20 @@
 #BRIEF INTRODUCTION
+
 My name is Edmund Annobil. Originally from Ghana but have lived in US for about 6 years.
 I have been in IT field for abt 4 years and currently working as a IT analyst.
 Currently, I am aspiring to gain more skills in the field of Big Data Engineering. 
 My hobbies include 
+
   *Riding motorcycles
   *Reading tech blogs 
   *Swimming
-----------
-#THREE PYTHON KEYWORDS
-##The "while" statement
+
 *********************
+
+#THREE PYTHON KEYWORDS
+
+##The "while" statement
+
 
 The "while" statement is used for repeated execution as long as an
 expression is true:
@@ -28,7 +33,6 @@ executed in the first suite skips the rest of the suite and goes back
 to testing the expression.
 
 ##Class definitions
-*****************
 
 A class definition defines a class object (see section The standard
 type hierarchy):
@@ -63,6 +67,7 @@ The "for" statement is used to iterate over the elements of a sequence
                 ["else" ":" suite]
 
 ##Further Elaboration
+
 #.The expression list is evaluated once; it should yield an iterable
 object.  An iterator is created for the result of the
 "expression_list".  The suite is then executed once for each item
