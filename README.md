@@ -1,21 +1,16 @@
-#BRIEF INTRODUCTION
+# BRIEF INTRODUCTION
 
 My name is Edmund Annobil. Originally from Ghana but have lived in US for about 6 years.
 I have been in IT field for abt 4 years and currently working as a IT analyst.
 Currently, I am aspiring to gain more skills in the field of Big Data Engineering. 
-My hobbies include 
-
-  *Riding motorcycles
-  *Reading tech blogs 
-  *Swimming
-
+My hobbies include: 
+  * Riding motorcycles
+  * Reading tech blogs 
+  * Swimming
 *********************
 
-#THREE PYTHON KEYWORDS
-
-##The "while" statement
-
-
+# THREE PYTHON KEYWORDS
+## The "while" statement
 The "while" statement is used for repeated execution as long as an
 expression is true:
 
@@ -31,9 +26,7 @@ A "break" statement executed in the first suite terminates the loop
 without executing the "else" clause’s suite.  A "continue" statement
 executed in the first suite skips the rest of the suite and goes back
 to testing the expression.
-
-##Class definitions
-
+## Class definitions
 A class definition defines a class object (see section The standard
 type hierarchy):
 
@@ -57,8 +50,7 @@ is equivalent to
 
 
 
-##The "for" statement
-*******************
+## The "for" statement
 
 The "for" statement is used to iterate over the elements of a sequence
 (such as a string, tuple or list) or other iterable object:
@@ -66,9 +58,9 @@ The "for" statement is used to iterate over the elements of a sequence
    for_stmt ::= "for" target_list "in" expression_list ":" suite
                 ["else" ":" suite]
 
-##Further Elaboration
+## Further Elaboration
 
-#.The expression list is evaluated once; it should yield an iterable
+#. The expression list is evaluated once; it should yield an iterable
 object.  An iterator is created for the result of the
 "expression_list".  The suite is then executed once for each item
 provided by the iterator, in the order returned by the iterator.  Each
@@ -79,13 +71,13 @@ sequence is empty or an iterator raises a "StopIteration" exception),
 the suite in the "else" clause, if present, is executed, and the loop
 terminates.
 
-#.A "break" statement executed in the first suite terminates the loop
+#. A "break" statement executed in the first suite terminates the loop
 without executing the "else" clause’s suite.  A "continue" statement
 executed in the first suite skips the rest of the suite and continues
 with the next item, or with the "else" clause if there is no next
 item.
 
-#.The for-loop makes assignments to the variables in the target list.
+#. The for-loop makes assignments to the variables in the target list.
 This overwrites all previous assignments to those variables including
 those made in the suite of the for-loop:
 
