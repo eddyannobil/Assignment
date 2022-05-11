@@ -60,9 +60,9 @@ The "for" statement is used to iterate over the elements of a sequence
 
 ## Further Elaboration
 
-#. The expression list is evaluated once; it should yield an iterable
-object.  An iterator is created for the result of the
-"expression_list".  The suite is then executed once for each item
+# . The expression list is evaluated once; it should yield an iterable
+object. An iterator is created for the result of the
+"expression_list". The suite is then executed once for each item
 provided by the iterator, in the order returned by the iterator.  Each
 item in turn is assigned to the target list using the standard rules
 for assignments (see Assignment statements), and then the suite is
@@ -71,13 +71,13 @@ sequence is empty or an iterator raises a "StopIteration" exception),
 the suite in the "else" clause, if present, is executed, and the loop
 terminates.
 
-#. A "break" statement executed in the first suite terminates the loop
+# . A "break" statement executed in the first suite terminates the loop
 without executing the "else" clause’s suite.  A "continue" statement
 executed in the first suite skips the rest of the suite and continues
 with the next item, or with the "else" clause if there is no next
 item.
 
-#. The for-loop makes assignments to the variables in the target list.
+# . The for-loop makes assignments to the variables in the target list.
 This overwrites all previous assignments to those variables including
 those made in the suite of the for-loop:
 
